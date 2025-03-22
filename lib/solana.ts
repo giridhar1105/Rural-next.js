@@ -18,6 +18,7 @@ export const connectPhantom = async () => {
   }
 };
 
+
 export const getConnection = () => {
   return new Connection(clusterApiUrl("devnet"), "confirmed");
 };
